@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #1B1E26;        /* near-black slate - primary text */
+  --color-paper: #FBFAF7;      /* warm off-white background */
+  --color-cloud: #F1EFE8;      /* slightly deeper cream for section bands */
+  --color-trust: #1E4E9C;      /* primary blue, from the Limat Care mark */
+  --color-trust-deep: #163A76; /* darker blue for hover/depth */
+  --color-heal: #2E9E8F;       /* teal accent - calm, restorative */
+  --color-gold: #D9A441;       /* warm highlight - used sparingly */
+  --color-line: #DEDBD1;       /* hairline borders on cream */
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-paper: var(--color-paper);
+  --color-cloud: var(--color-cloud);
+  --color-trust: var(--color-trust);
+  --color-trust-deep: var(--color-trust-deep);
+  --color-heal: var(--color-heal);
+  --color-gold: var(--color-gold);
+  --color-line: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Fraunces Variable", Georgia, serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-heal);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
