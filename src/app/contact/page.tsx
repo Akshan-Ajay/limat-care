@@ -46,8 +46,8 @@ export default function ContactPage() {
                 <Phone className="h-5 w-5 text-trust shrink-0 mt-0.5" strokeWidth={1.6} />
                 <div>
                   <p className="font-semibold text-ink text-sm">Phone</p>
-                  <a href="tel:+16479219909" className="text-ink/65 hover:text-trust transition-colors">
-                    647-921-9909
+                  <a href="tel:+16472015508" className="text-ink/65 hover:text-trust transition-colors">
+                    +1 (647) 201-5508
                   </a>
                 </div>
               </li>
@@ -55,8 +55,8 @@ export default function ContactPage() {
                 <Mail className="h-5 w-5 text-trust shrink-0 mt-0.5" strokeWidth={1.6} />
                 <div>
                   <p className="font-semibold text-ink text-sm">Email</p>
-                  <a href="mailto:info@limatcare.ca" className="text-ink/65 hover:text-trust transition-colors">
-                    info@limatcare.ca
+                  <a href="mailto:limatcareofficial@gmail.com" className="text-ink/65 hover:text-trust transition-colors">
+                    limatcareofficial@gmail.com
                   </a>
                 </div>
               </li>
@@ -64,7 +64,7 @@ export default function ContactPage() {
                 <MapPin className="h-5 w-5 text-trust shrink-0 mt-0.5" strokeWidth={1.6} />
                 <div>
                   <p className="font-semibold text-ink text-sm">Service area</p>
-                  <p className="text-ink/65">Greater Toronto Area, Ontario</p>
+                  <p className="text-ink/65">7130 Warden Avenue, Suite 609, Markham, ON L3R 4N3</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -76,19 +76,16 @@ export default function ContactPage() {
               </li>
             </ul>
 
-            <div className="mt-10 rounded-2xl overflow-hidden border border-line">
-              <iframe
-                title="Limat Care service area map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369183.5!2d-79.6!3d43.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDQyJzAwLjAiTiA3OcKwMjQnMDAuMCJX!5e0!3m2!1sen!2sca"
-                className="w-full h-72 border-0"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div>
-            <p className="mt-2 text-xs text-ink/40">
-              Map shown for the general Greater Toronto Area &mdash; replace
-              with an embed for your exact office address.
-            </p>
+        <div className="mt-10 rounded-2xl overflow-hidden border border-line">
+  <iframe
+    title="Limat Care location map"
+    src="https://maps.google.com/maps?q=7130+Warden+Avenue+Suite+609+Markham+Ontario+L3R+4N3&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    className="w-full h-72 border-0"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
+    
           </div>
         </div>
       </section>
