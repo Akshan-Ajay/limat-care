@@ -44,16 +44,16 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2.5 text-sm text-paper/65">
             <li>
-              <a href="tel:+16479219909" className="hover:text-heal transition-colors">
-                647-921-9909
+              <a href="tel:+16472015508" className="hover:text-heal transition-colors">
+                +1 (647) 201-5508
               </a>
             </li>
             <li>
-              <a href="mailto:info@limatcare.ca" className="hover:text-heal transition-colors">
-                info@limatcare.ca
+              <a href="mailto:limatcareofficial@gmail.com" className="hover:text-heal transition-colors">
+                limatcareofficial@gmail.com
               </a>
             </li>
-            <li className="text-paper/65">Serving the Greater Toronto Area, Ontario</li>
+            <li className="text-paper/65">7130 Warden Avenue, Suite 609, Markham, ON L3R 4N3</li>
           </ul>
         </div>
       </div>
