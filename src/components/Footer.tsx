@@ -49,8 +49,8 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="mailto:limatcareofficial@gmail.com" className="hover:text-heal transition-colors">
-                limatcareofficial@gmail.com
+              <a href="mailto:limatcareinc@gmail.com" className="hover:text-heal transition-colors">
+                limatcareinc@gmail.com
               </a>
             </li>
             <li className="text-paper/65">7130 Warden Avenue, Suite 609, Markham, ON L3R 4N3</li>
