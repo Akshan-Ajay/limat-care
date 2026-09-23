@@ -12,7 +12,7 @@ function getResendClient() {
 // Where submissions get emailed. Set OWNER_EMAIL in Vercel project
 // settings too -- keeping it as an env var (not hardcoded) means you
 // can change the inbox without touching code.
-const OWNER_EMAIL = process.env.OWNER_EMAIL || "limatcareofficial@gmail.com";
+const OWNER_EMAIL = process.env.OWNER_EMAIL || "limatcareinc@gmail.com";
 
 // Resend requires the "from" address to be on a domain you've verified
 // with them (Resend dashboard -> Domains). Until you verify limatcare.ca,
