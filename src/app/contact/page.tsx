@@ -55,8 +55,8 @@ export default function ContactPage() {
                 <Mail className="h-5 w-5 text-trust shrink-0 mt-0.5" strokeWidth={1.6} />
                 <div>
                   <p className="font-semibold text-ink text-sm">Email</p>
-                  <a href="mailto:limatcareofficial@gmail.com" className="text-ink/65 hover:text-trust transition-colors">
-                    limatcareofficial@gmail.com
+                  <a href="mailto:limatcareinc@gmail.com" className="text-ink/65 hover:text-trust transition-colors">
+                    limatcareinc@gmail.com
                   </a>
                 </div>
               </li>
